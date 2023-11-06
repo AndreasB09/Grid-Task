@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/fonts/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+
+body {
+    background-color: hsl(235, 18%, 26%);
+    font-family: Roboto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    background-color: white;
+    border-radius: 18px;
+    padding: 40px;
+}
+
+.card {
+    color: hsl(234, 29%, 20%);
+    font-family: Roboto;
+    
+}
+
+h1 {
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+}
+
+#email {
+    font-weight: 700;
+}
+
+input {
+    height: 35px;
+    width: 100%;
+}
+
+button {
+    height: 40px;
+    width: 100%;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: linear-gradient(#e66465, #9198e5);
+}
