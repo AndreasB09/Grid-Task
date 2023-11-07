@@ -56,6 +56,11 @@ button {
     margin-top: 10px;
 }
 
+ul {
+  list-style-type: disc;
+  list-style-image: url("./assets/images/icon-list.svg");
+}
+
 button:hover {
     background: linear-gradient(#e66465, #9198e5);
 }
