@@ -21,13 +21,14 @@ body {
     background-color: white;
     border-radius: 18px;
     padding: 30px;
-    margin: 50px;
+    margin: 10px;
 }
 
 .card {
     color: hsl(234, 29%, 20%);
     font-family: Roboto;
     margin: 30px;
+    text-align: center;
     
 }
 
@@ -77,12 +78,29 @@ input, button {
     box-sizing: border-box;
 }
 
-/* .lower {
-    display: flex;
-    flex-direction: column;
-    grid-template-columns: 1fr 1fr;
-} */
-
 button:hover {
-    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(90deg, hsl(4, 100%, 67%), #e66465);
+}
+
+.iamge2 {
+    display: none;
+}
+
+@media (max-width: 375px) {
+    body {
+        background-color: red;
+    }
+    .grid {
+        grid-template-rows: 1fr 1fr;
+
+    }
+    .card {
+        margin: 5px;
+    }
+    .image {
+        display: none;
+    }
+    .iamge2 {
+        display: block;
+    }
 }
