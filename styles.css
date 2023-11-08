@@ -79,6 +79,11 @@ input, button {
     box-sizing: border-box;
 }
 
+.attribution {
+    text-align: left;
+    margin-left: 30px;
+}
+
 button:hover {
     background: linear-gradient(90deg, hsl(4, 100%, 67%), #e66465);
 }
