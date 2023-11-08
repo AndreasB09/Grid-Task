@@ -81,7 +81,7 @@ input, button {
 
 .attribution {
     text-align: left;
-    margin-left: 30px;
+    margin: 30px;
 }
 
 button:hover {
